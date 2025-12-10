@@ -6,6 +6,8 @@ import tesla from './tesla.png'
 import logo from './logo.svg'
 import c from './c.jpg'
 import js from './js.jpg'
+import Ccss from './Ccss.jpg'
+import Hhtml from './Hhtml.jpg'
 
 
 export {
@@ -17,5 +19,6 @@ export {
     logo, 
     c,
     js,
-    
+    Ccss,
+    Hhtml
 }

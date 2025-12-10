@@ -1,4 +1,4 @@
-import { meta, shopify, starbucks, tesla , c, js} from "../assets/images";
+import { meta, shopify, starbucks, tesla , c, js, Ccss, Hhtml} from "../assets/images";
 
 import {
     car,
@@ -85,21 +85,21 @@ export const skills = [
 
 export const experiences = [
     {
-        title: "C and C++  Certificate",
-        company_name: "INTERNSHALA",
-        icon: starbucks,
+        title: "Html Certificate",
+        company_name: "INFOSYS SPRINGBOARD",
+        icon: html,
         iconBg: "#accbe1",
-        imageUrl: c,
+        imageUrl: Hhtml,
         
         
     },
     {
-        title: "Javascript Certificate",
-        company_name: "HackerRank",
-        icon: tesla,
+        title: "Css Certificate",
+        company_name: "INFOSYS SPRINGBOARD",
+        icon: css,
         iconBg: "#fbc3bc",
         date: "Jan 2021 - Feb 2022",
-        imageUrl: js,
+        imageUrl: Ccss,
 
         
         
@@ -116,12 +116,12 @@ export const socialLinks = [
     {
         name: 'GitHub',
         iconUrl: github,
-        link: 'https://github.com/ShiveshMishr',
+        link: 'https://github.com/Rajveer00000singh',
     },
     {
         name: 'LinkedIn',
         iconUrl: linkedin,
-        link: 'https://www.linkedin.com/in/shivesh-mishra-494624188',
+        link: 'https://www.linkedin.com/in/rajveer-singh-negi-0000r/',
     }
 ];
 
@@ -131,21 +131,21 @@ export const projects = [
         theme: 'btn-back-red',
         name: 'Library Management System',
         description: 'Developed a web-based library system with distinct user/admin portals. Admin controls book management, price changes, and Highchart-tracked histories. User interface facilitates borrowing, viewing borrowed books, and easy returns, ensuring efficient library operations and real-time updates on available quantities.',
-        link: 'https://github.com//ShiveshMishr',
+        link: 'https://github.com/Rajveer00000singh',
     },
     {
         iconUrl: threads,
         theme: 'btn-back-yellow',
         name: 'Object Detector App',
         description: 'A mobile app that’s like having a personal object identifier in your pocket. Point your phone at anything, and in an instant, it tells you precisely what it is, powered by the remarkable accu- racy of Google API.',
-        link: 'https://github.com//ShiveshMishr',
+        link: 'https://github.com/Rajveer00000singh',
     },
     {
         iconUrl: car,
         theme: 'btn-back-blue',
         name: 'I-Clinic (Present)',
         description: 'iClinic redefines healthcare, offering a multifaceted platform. From Doctor-Patient interaction to Clinical Trials, Blood Bank access, Nearby Hospital location, paid Yoga, and medication ser- vices, it’s a unified solution. This integrated hub caters to diverse health needs, providing a seamless and accessible space for com- prehensive medical assistance.',
-        link: 'https://github.com//ShiveshMishr',
+        link: 'https://github.com/Rajveer00000singh',
     },
     
 ];

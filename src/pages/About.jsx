@@ -10,7 +10,7 @@ const About = () => {
   return (
     <section className='max-container'>
       <h1 className='head-text'>
-        Hello, I'm <span className='blue-gradient_text font-semibold drop-shadow'>Shivesh</span>
+        Hello, I'm <span className='blue-gradient_text font-semibold drop-shadow'>Rajveer</span>
       </h1>
       <div className='mt-5 flex flex-col gap-3 text-slate-500'>
         <p>
@@ -53,7 +53,7 @@ const About = () => {
             {experiences.map((experience, index) => (
               <VerticalTimelineElement
                 key={experience.company_name}
-                date={experience.date}
+                // date={experience.date}
                 iconStyle={{ background: experience.iconBg }}
                 icon={
                   <div className='flex justify-center items-center w-full h-full'>
